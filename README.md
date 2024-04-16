@@ -74,7 +74,7 @@ sudo nano /etc/docker/daemon.json
 Add or modify the "insecure-registries" option in the daemon.json file to include the URL of your Docker registry using HTTP
 ```
 {
-    "insecure-registries": ["<IP ADDRESS>:5000"]
+    "insecure-registries": ["<PRIVATE IP ADDRESS>:5000"]
 }
 ```
 
