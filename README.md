@@ -77,7 +77,7 @@ docker inspect
 
 ### Disconnect a container from user define network
 ```
-docker network diconnect my-net1 web
+docker network disconnect my-net1 web
 
 docker inspect web
 ```
